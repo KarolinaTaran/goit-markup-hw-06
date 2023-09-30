@@ -3,8 +3,8 @@
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 
   .logo {
@@ -41,12 +41,19 @@
 
   .main-header {
     margin-bottom: 72px;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    line-height: 40px;
+    max-width: 288px;
   }
 
   .hero {
     padding: 72px 0;
   }
 
+  .features {
+    padding: 96px 0;
+  }
 
   .icons-box {
     display: none;
@@ -54,14 +61,29 @@
 
   .card {
     display: flex;
-
-    width: 288px;
     flex-direction: column;
     align-items: flex-start;
     gap: 72px;
-    padding: 0 16px;
   }
 
+  .list-title-mob {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+
+
+  .team-container {
+    padding: 96px 0;
+
+  }
+
+  .list-container-team {
+    flex: none;
+  }
 
   .card-list {
     width: 100%;
@@ -69,17 +91,18 @@
 
   .card-team {
     flex-wrap: wrap;
+    width: 296px;
+    gap: 72px;
   }
 
-  .list-container-team {
-    padding: 0 28px;
+  .portfolio {
+    padding: 96px 0;
   }
 
-
-
-  .footer-logo {
-    padding: 0 103px 0 102px;
+  .card-portfolio {
+    gap: 24px;
   }
+
 
   .text-footer {
     margin: 0 16px;
@@ -87,6 +110,10 @@
 
   .footer-logo-text {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer-socials {
@@ -110,7 +137,11 @@
   .modal {
     width: 288px;
     height: 623px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
+
+
 
   .backdrop {
     max-width: 100%;
@@ -118,6 +149,12 @@
 
   .form-element input {
     width: 100%;
+  }
+
+
+  .label-checkbox {
+    display: flex;
+    gap: 8px;
   }
 
   /* Modal menu */
@@ -170,6 +207,7 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    font-weight: 700;
   }
 
   .mobile-menu-item .current-link {
@@ -264,6 +302,28 @@
     padding-right: 15px;
   }
 
+  .address a {
+    font-size: 12px;
+  }
+
+  .features {
+    padding: 96px 0;
+  }
+
+  .team-container {
+    padding: 96px 0;
+  }
+
+  .portfolio {
+    padding: 96px 0;
+  }
+
+  .list-title-mob {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    line-height: 1.1;
+  }
 
   .menu-container {
     display: none;
@@ -325,17 +385,22 @@
   .card-team {
     justify-content: center;
     flex-wrap: wrap;
+    row-gap: 64px;
+  }
+
+  .card-portfolio {
+    row-gap: 72px;
   }
 
   .footer {
-    padding: 0;
+    padding: 97.5px 0 96px 0;
   }
 
   .footer-section {
     gap: 24px;
     row-gap: 72px;
     flex-wrap: wrap;
-    padding: 97.5px 164px 96px 108px;
+    width: 584px;
   }
 
 
@@ -395,7 +460,7 @@
 
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/people-office\ 1_desk.jpg);
+      url(../images/people-office1_desk.jpg);
   }
 
   .card-team {
@@ -414,7 +479,7 @@
 @media only screen and (min-width:1158px) and (min-resolution:192dpi) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/people-office\ 1_desk@2x.jpg);
+      url(../images/people-office1_desk@2x.jpg);
     width: 1158px;
   }
 }
