@@ -5,6 +5,7 @@
     margin-right: auto;
     padding-right: 16px;
     padding-left: 16px;
+    width: 296px;
   }
 
   .logo {
@@ -44,7 +45,7 @@
     font-size: 36px;
     letter-spacing: 0.72px;
     line-height: 40px;
-    max-width: 288px;
+    width: 217px;
   }
 
   .hero {

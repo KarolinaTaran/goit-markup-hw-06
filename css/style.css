@@ -911,6 +911,7 @@ a.list-header.current {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  flex-shrink: 0;
 }
 
 .policy {
